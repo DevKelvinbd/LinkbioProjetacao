@@ -4,7 +4,7 @@ import Button1 from './assets/Images/Button1.png'
 import Button2 from './assets/Images/Button2.png'
 import Button3 from './assets/Images/Button3.png'
 import Button4 from './assets/Images/Button4.png'
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex;
