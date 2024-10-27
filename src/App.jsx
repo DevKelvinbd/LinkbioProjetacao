@@ -4,7 +4,7 @@ import Button1 from './assets/Images/Button1.png'
 import Button2 from './assets/Images/Button2.png'
 import Button3 from './assets/Images/Button3.png'
 import Button4 from './assets/Images/Button4.png'
-import styled from 'styled-components';
+import { styled } from 'styled-components';
 
 const Container = styled.div`
   display: flex;
@@ -83,7 +83,7 @@ function App() {
           <a href="https://api.whatsapp.com/send?phone=5588981581328" target="_blank" rel="noopener noreferrer"><ButtonLink src={Button3} /></a>
           <a href="https://sites.google.com/view/projetacao/nossos-produtos/ventiladores-em-s%C3%A9rie?authuser=0" target="_blank" rel="noopener noreferrer"><ButtonLink src={Button4} /></a>
 
-            <Direitos>Todos os direitos reservados</Direitos>
+          <Direitos>Todos os direitos reservados</Direitos>
 
         </FinalCont>
         
